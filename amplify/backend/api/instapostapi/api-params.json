@@ -1,0 +1,73 @@
+{
+    "paths": [
+        {
+            "name": "/servicecalls",
+            "lambdaFunction": "getServiceCalls",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/servicecalls"
+        },
+        {
+            "name": "/nicknames",
+            "lambdaFunction": "getNicknames",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/nicknames"
+        },
+        {
+            "name": "/hashtags",
+            "lambdaFunction": "getHashtags",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/hashtags"
+        }
+    ],
+    "resourceName": "instapostapi",
+    "apiName": "instapostapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "getServiceCalls"
+        },
+        {
+            "lambdaFunction": "getNicknames"
+        },
+        {
+            "lambdaFunction": "getHashtags"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-instapostapp-dev-125349-authRole",
+        "unAuthRoleName": "amplify-instapostapp-dev-125349-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getServiceCalls",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "getNicknames",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "getHashtags",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

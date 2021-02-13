@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-instapostapp-dev-125349-authRole",
+      "UnauthRoleArn": "arn:aws:iam::153967702093:role/amplify-instapostapp-dev-125349-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::153967702093:role/amplify-instapostapp-dev-125349-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-instapostapp-dev-125349-deployment",
+      "UnauthRoleName": "amplify-instapostapp-dev-125349-unauthRole",
+      "StackName": "amplify-instapostapp-dev-125349",
+      "StackId": "arn:aws:cloudformation:us-east-1:153967702093:stack/amplify-instapostapp-dev-125349/947db9a0-6e3d-11eb-a16c-12312be5d5ed",
+      "AmplifyAppId": "d2d7odttdkzkkq"
+    }
+  }
+}
